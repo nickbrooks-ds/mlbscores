@@ -77,6 +77,6 @@ SELECT
     WHEN home_team LIKE 'TOR' THEN 29
     WHEN home_team LIKE 'WAS' THEN 30
   END AS home_id, away_team_score, home_team_score, gamedate
-FROM mlbscores2
+FROM mlbscores2;
 
 DELETE FROM scraper;
