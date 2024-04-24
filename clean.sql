@@ -79,4 +79,7 @@ SELECT
   END AS home_id, away_team_score, home_team_score, gamedate
 FROM mlbscores2;
 
+DELETE FROM mlbscores;
+DELETE FROM mlbscores2;
+
 DELETE FROM scraper;
